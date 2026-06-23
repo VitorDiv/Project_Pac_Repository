@@ -286,6 +286,5 @@ Projeto acadêmico desenvolvido exclusivamente para fins educacionais no âmbito
 
 </div>
 
-⭐ Desenvolvido pela equipe **Metalúrgica Mayer**
 
 </div>
