@@ -1,2 +1,2 @@
 # Project_Pac_Repository
-Repository intended for the extension project.
+Repositsory intended for the extension project.
