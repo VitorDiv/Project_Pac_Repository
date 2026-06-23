@@ -9,7 +9,7 @@
 
 <!-- Badges de tecnologias com ícones reais -->
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,flask,sqlite&theme=dark&perline=6" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,python,flask,postgres&theme=dark&perline=7" />
 </p>
 
 <br>
@@ -108,13 +108,14 @@ Além da área institucional voltada aos clientes, o sistema conta com uma área
 <div align="center">
 
 ### Front-end
-<img src="https://skillicons.dev/icons?i=html,css,js,tailwind&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind&theme=dark" />
 
 | Tecnologia | Uso |
 |---|---|
 | HTML5 | Estrutura semântica das páginas |
 | CSS3 | Estilização e responsividade |
 | JavaScript | Interatividade e lógica no cliente |
+| React | Interface dinâmica e componentizada |
 | Tailwind CSS | Utilitários de estilo rápido |
 
 ### Back-end
@@ -126,11 +127,11 @@ Além da área institucional voltada aos clientes, o sistema conta com uma área
 | Flask | Framework web e API REST |
 
 ### Banco de Dados
-<img src="https://skillicons.dev/icons?i=sqlite&theme=dark" />
+<img src="https://skillicons.dev/icons?i=postgres&theme=dark" />
 
 | Tecnologia | Uso |
 |---|---|
-| SQLite | Banco de dados relacional |
+| PostgreSQL | Banco de dados relacional robusto |
 
 ### Ferramentas
 <img src="https://skillicons.dev/icons?i=vscode,git,github&theme=dark" />
@@ -161,24 +162,28 @@ PROJECT_PAC_REPOSITORY/
 │   └── 🐍 app.py
 │
 ├── 📁 frontend/
-│   ├── 📁 assets/
-│   │   ├── 📁 css/
-│   │   ├── 📁 images/
-│   │   └── 📁 icons/
+│   ├── 📁 public/
+│   ├── 📁 src/
+│   │   ├── 📁 assets/
+│   │   │   ├── 📁 css/
+│   │   │   └── 📁 images/
+│   │   │
+│   │   ├── 📁 components/
+│   │   │   ├── 📁 Navbar/
+│   │   │   ├── 📁 Footer/
+│   │   │   ├── 📁 Sidebar/
+│   │   │   └── 📁 Cards/
+│   │   │
+│   │   ├── 📁 pages/
+│   │   │   ├── 📁 institucional/
+│   │   │   └── 📁 erp/
+│   │   │
+│   │   ├── 📁 hooks/
+│   │   ├── 📁 services/
+│   │   ├── 📁 routes/
+│   │   └── ⚛️  App.jsx
 │   │
-│   ├── 📁 components/
-│   │   ├── 📁 navbar/
-│   │   ├── 📁 footer/
-│   │   ├── 📁 sidebar/
-│   │   └── 📁 cards/
-│   │
-│   ├── 📁 js/
-│   │
-│   ├── 📁 pages/
-│   │   ├── 📁 institucional/
-│   │   └── 📁 erp/
-│   │
-│   └── 🌐 index.html
+│   └── 📄 package.json
 │
 ├── 📄 README.md
 └── 🚫 .gitignore
@@ -214,7 +219,7 @@ Durante o projeto foram desenvolvidos os seguintes artefatos de Engenharia de So
 
 ## 📸 Protótipos
 
-Os wireframes do sistema foram desenvolvidos utilizando inteligência artificial e posteriormente organizados para implementação em HTML, CSS e JavaScript.
+Os wireframes do sistema foram desenvolvidos utilizando inteligência artificial e posteriormente organizados para implementação em React, CSS e JavaScript.
 
 > 🔗 *Imagens dos protótipos serão adicionadas em breve.*
 
@@ -276,6 +281,10 @@ Projeto acadêmico desenvolvido exclusivamente para fins educacionais no âmbito
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
 
 **Engenharia de Software • Projeto PAC**
+
+⭐ Desenvolvido pela equipe **Metalúrgica Mayer**
+
+</div>
 
 ⭐ Desenvolvido pela equipe **Metalúrgica Mayer**
 
